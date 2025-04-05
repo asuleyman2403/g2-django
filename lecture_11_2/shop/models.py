@@ -13,9 +13,7 @@ class Category(models.Model):
         return f'ID: {self.id} {self.name}'
 
 
-print('changed something asdfasd asdf')
-print('asdfjlajsdfl')
-print('check check')
+print('some fixes/ latest version')
 
 class Product(models.Model):
     name = models.CharField(null=False, max_length=255, blank=False)
