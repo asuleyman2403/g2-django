@@ -14,6 +14,7 @@ class Category(models.Model):
 
 
 print('changed something asdfasd asdf')
+print('asdfjlajsdfl')
 
 class Product(models.Model):
     name = models.CharField(null=False, max_length=255, blank=False)
