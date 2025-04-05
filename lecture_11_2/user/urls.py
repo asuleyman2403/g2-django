@@ -10,3 +10,6 @@ urlpatterns = [
     path('reset-password/<slug:token>', reset_password_page_view, name='reset_password_page'),
     path('settings/', settings_page_view, name='settings_page')
 ]
+
+print('SOME CHANGES')
+
