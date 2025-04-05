@@ -12,10 +12,6 @@ class Category(models.Model):
     def __str__(self):
         return f'ID: {self.id} {self.name}'
 
-print('Changed category')
-
-print('changed something asdfasd asdf')
-print('asdfjlajsdfl')
 
 class Product(models.Model):
     name = models.CharField(null=False, max_length=255, blank=False)
