@@ -13,6 +13,8 @@ class Category(models.Model):
         return f'ID: {self.id} {self.name}'
 
 
+print('some fixes/ latest version')
+
 class Product(models.Model):
     name = models.CharField(null=False, max_length=255, blank=False)
     description = models.CharField(null=False, max_length=2000, blank=True, default='')
